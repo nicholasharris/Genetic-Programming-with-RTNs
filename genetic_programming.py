@@ -16,7 +16,7 @@ import numpy
 from functools import reduce
 from collections import Counter
 
-#RTN population - the highest level object for us in genetic algorithm
+#RTN population - the highest level object for use in genetic algorithm
 class RTN_population:
     def __init__(self, pop_size, max_nodes, max_tree_depth, num_inputs, elitism, diversity_generate, fitness_sharing, preserve_diversity):
         self.RTNs = []
