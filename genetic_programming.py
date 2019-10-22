@@ -3,7 +3,8 @@
 #   RTN's (Recursive Tree Networks) in Python 3
 #   
 #
-# As outlined in the paper: http://www.unfindable.net/paper/2003-yabuki-rtn-draft.pdf
+# As outlined in the paper "Genetic Programming Using a Turing-Complete Representation:
+#       Recurrent Network Consisting of Trees" by Taro Yabuki and Hitoshi Iba.
 #
 # Nicholas Harris
 ##################################
