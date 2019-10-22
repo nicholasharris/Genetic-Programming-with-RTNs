@@ -21,15 +21,15 @@ def F(n):
     elif n == 1: return 1
     else: return F(n-1)+F(n-2)
 
+# The population settings below with this seed results in a correct fibonacci generator being created
+#     in generation 8.
+random.seed(456845684568)    
+    
 #Arguments:
 #Pop size, max RTN size, max tree depth, num inputs, num elitism, num diversity generate, fitness sharing(bool), preserve diversity(bool)
 my_RTNs = gp.RTN_population(5000, 4, 3, 4, 100, 1000, True, True)
 
 NUM_GENS = 1000
-
-# The above population settings with this seed results in a correct fibonacci generator being created
-#     in generation 132.
-random.seed(456845684568)
 
 vals = []
 for y in range(17):
