@@ -1,5 +1,5 @@
 # Genetic-Programming-with-RTNs
-A python implementation of genetic programming, using the turing-complete Recursive Tree Network (RTN) structure defined by Taro Yabuki and Hitoshi Iba in the paper "Genetic Programming Using a Turing-Complete Representation: Recurrent Network Consisting of Trees".  
+A python implementation of genetic programming, using the turing-complete Recursive Tree Network (RTN) structure defined by Taro Yabuki and Hitoshi Iba in the paper "Genetic Programming Using a Turing-Complete Representation: Recurrent Network Consisting of Trees". Link: https://www.researchgate.net/publication/250859796_Genetic_Programming_Using_a_Turing-Complete_Representation_Recurrent_Network_Consisting_of_Trees
 
 Genetic programming uses a genetic algorithm over the space of possible programs to produce a program that performs a desired task.
 The traditional way of doing this uses program trees - however this representation is not Turing-complete, so there are many programs it cannot represent. The RTN structure defined in the paper I name above is turing complete, and theoretically any program can be represented with an RTN.
