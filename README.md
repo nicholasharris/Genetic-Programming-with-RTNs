@@ -9,4 +9,4 @@ In addition, I include an example test file, "gp_fibonacci_test.py", which evolv
 
 I arbitrarily set the size limit of numbers the trees will handle at [-1000, 1000], this can be easily modified to suit a different problem domain if desired.
 
-Tested in Windows 10. 
+Tested in Python 3.6 and Windows 10. 
